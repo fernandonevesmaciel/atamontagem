@@ -260,16 +260,16 @@ if (document.getElementById('tabela-servicos')) {
     // Novos elementos de filtro de horas
     const filtroMesInput = document.getElementById('filtro-mes');
     const aplicarFiltroMesBtn = document.getElementById('aplicar-filtro-mes-btn');
-    const jornadaDiariaEmMinutos = 440; // 7h20m convertidos para minutos
+    const jornadaDiariaEmMinutos = 528; // 8h48m convertidos para minutos
 
     // Nova estrutura de dados para horas disponíveis por funcionário
     const horasDisponiveisPorFuncionario = {
-        "Bruno": 440,
-        "Flavinei": 440,
-        "Rafael": 440,
-        "Ramon": 440,
-        "Otavio": 440,
-        "Gerson": 440,
+        "Bruno": 528,
+        "Flavinei": 528,
+        "Rafael": 528,
+        "Ramon": 528,
+        "Otavio": 528,
+        "Gerson": 528,
     };
 
     // ======================================================================================
